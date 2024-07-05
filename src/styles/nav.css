@@ -1,0 +1,86 @@
+:root{
+    --width-Content:220px;
+}
+.nav{
+    height:90vh;
+    width:var(--width-Content);
+    background: #032125;
+    position: absolute;
+    top:72px;
+    margin: 0;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+button{
+    height: 32px;
+    width: 32px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    background-position: center;
+    background-size: 0.8;
+}
+button:active{
+    transform: scale(0.8);
+}
+
+.nav ul button{
+    margin: 10px;
+    margin-top: 15px;
+}
+.nav ul{
+    height: fit-content;
+    width: fit-content;
+    background-color: transparent;
+}
+.nav :nth-child(1) li button{
+    background-image: url('/src/images/icons/home.png');
+}
+.nav :nth-child(1) :nth-child(2) button{
+    background-image: url('/src/images/icons/drama.png');
+}
+.nav :nth-child(1) :nth-child(3) button{
+    background-image: url('/src/images/icons/badge.png');
+}
+.nav :nth-child(1) :nth-child(4) button{
+    background-image: url('/src/images/icons/star.png');
+}
+.nav :nth-child(1) :nth-child(5) button{
+    background-image: url('/src/images/icons/information.png');
+}
+.nav :nth-child(2) li button{
+    background-image: url('/src/images/icons/coffee.png');
+}
+.nav :nth-child(2) :nth-child(2) button{
+    background-image: url('/src/images/icons/setting.png');
+}
+.sign{
+    height: 64px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.nav ul li{
+    height: fit-content;
+    width: fit-content; 
+    background-color: transparent; 
+    display: flex; 
+}
+.nav ul li article{
+    background-color: transparent;
+    color:#B6E2D8;
+    font-size: larger;
+    font-weight: 600;
+    align-content: center;
+    align-self:center;
+}
+.depth{
+    position:absolute;
+    right: 0px;
+    top: 46px;
+    border: none;
+    outline:none;
+    background-color:transparent;
+    
+}

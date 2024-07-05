@@ -1,0 +1,111 @@
+*,body,html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    height:72px;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    padding-left: 60px;
+    display:flex;
+    flex-direction: row;
+    background:#053339;
+    justify-content: space-evenly;
+    position:relative;
+    top: 0;
+    left: 0;
+}
+.navShow{
+    height: 32px;
+    width: 32px;
+    border: none;
+    outline:none;
+    background: transparent;
+    position: absolute;
+    z-index: 10;
+    top:82px;
+    left:10px;
+    background-image: url('/src/images/icons/close.png');
+}
+header img{
+    height: 64px;
+    width: 64px;
+    margin: 0px 10px 0px 0px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    align-self: center;
+}
+header article{
+    width: 260px;
+    margin:0;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding:0;
+    align-self: center;
+    color: black;
+    background-color: transparent;
+    font-size: 24pt;
+    -webkit-text-stroke:white;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+}
+#search{
+    height: 46px;
+    width: 540px;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+    margin-left: 32px;
+
+    border-radius: 24px;
+    position: relative;
+    background-color:#08545E;
+}
+#search input{
+    height: inherit;
+    width: inherit;
+    padding-left: 28px;
+    border: none;
+    outline: none;
+    position: relative;
+    background-color: transparent;
+    color: antiquewhite;
+    font-size: large;
+}
+#search ::-webkit-input-placeholder{
+    font-size: large;
+    font-weight: 300;
+    opacity: 0.8;
+}
+#search > button{
+    height: 46px;
+    width: 64px;
+    border: none;
+    outline: none;
+    color: black;
+    border-radius:0 24px 24px 0;
+    background-color:antiquewhite;
+    background-image: url('/src/images/icons/search.png');
+    background-position: center;
+    background-size:32px;
+    background-repeat: no-repeat;
+    position:absolute;
+    right: 0;
+
+}
+header button{
+    height: 64px;
+    width: 200px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    background: #1ED3EB;
+    align-self: center;
+}
