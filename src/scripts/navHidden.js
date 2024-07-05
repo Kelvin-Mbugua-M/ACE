@@ -28,6 +28,7 @@ arrowKey.addEventListener('click',updateNavigationSize=()=>{
             element.style.width = 'fit-content'
             element.style.height = 'fit-content'
             element.style.visibility = 'visible'
+            element.style.alignSelf = 'center'
             element.style.transition = 'all ease-out 200ms'
         }) 
         navResize.style.setProperty('--width-Content','220px') 
@@ -47,6 +48,7 @@ hamburg.addEventListener('click',hideNav =()=>{
         navArticle.forEach(element=>{
             element.style.width = '0px'
             element.style.visibility='hidden'
+            element.style.alignSelf = 'center'
         })
         return initialState = false
     }
